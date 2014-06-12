@@ -371,19 +371,22 @@ ul#listanoticia,
 	border-top: 1px dashed #e41d1d;
 }
 #flexcontato,
+.flexcontato,
 .contatoTexto {
 	height: auto;
 	float: left;
 	clear: none;
 	display: inline-block;
 	text-align: left;
-	margin-left: 50px;
 }
-#flexcontato {
-	width: 500px;
+#flexcontato,
+.flexcontato {
+	width: 690px;
+	margin-top: 50px;
 }
-#flexcontato fieldset {
-	width: 490px;
+#flexcontato fieldset,
+.flexcontato fieldset {
+	width: 690px;
 	height: auto;
 	float: left;
 	clear: left;
@@ -419,59 +422,77 @@ ul#listanoticia,
 	letter-spacing: .1em;
 	color:#8e8e8e;
 }
-#flexcontato label, 
-#flexcontato input, 
-#flexcontato select, 
-#flexcontato option, 
-#flexcontato textarea {
+#flexcontato label,
+#flexcontato input,
+#flexcontato select,
+#flexcontato option,
+#flexcontato textarea,
+.flexcontato label,
+.flexcontato input,
+.flexcontato select,
+.flexcontato option,
+.flexcontato textarea {
 	text-align: left;
 }
-#flexcontato fieldset label, 
-#flexcontato fieldset input, 
-#flexcontato fieldset select, 
-#flexcontato fieldset textarea {
+#flexcontato fieldset label,
+#flexcontato fieldset input,
+#flexcontato fieldset select,
+#flexcontato fieldset textarea,
+.flexcontato fieldset label,
+.flexcontato fieldset input,
+.flexcontato fieldset select,
+.flexcontato fieldset textarea {
 	float: left;
 	clear: none;
 	display: block;
 }
-#flexcontato fieldset label {
-	font-size: 12px;
+#flexcontato fieldset label,
+.flexcontato fieldset label {
+	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 3px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	color: @cor-titulo;
+	color: #2eb9fa;
 	display: inline-block;
-	width: 100px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
+	width: 600px;
+	font-weight: 800;
 }
-#flexcontato fieldset input, 
-#flexcontato fieldset select, 
-#flexcontato fieldset textarea {
+#flexcontato fieldset input,
+#flexcontato fieldset select,
+#flexcontato fieldset textarea,
+.flexcontato fieldset input,
+.flexcontato fieldset select,
+.flexcontato fieldset textarea{
 	border: none;
 	margin-bottom: 7px;
 	padding: 5px;
 	color: #000;
-	background: #fff;
+	background: #ebebeb;
 	letter-spacing: .2em;
-	border:1px solid #e1e1e1;
+	border:none;
 }
-#flexcontato fieldset input:focus, 
-#flexcontato fieldset select:focus, 
-#flexcontato fieldset textarea:focus {
-	border: 1px solid #e1e1e1;
+#flexcontato fieldset input:focus,
+#flexcontato fieldset select:focus,
+#flexcontato fieldset textarea:focus,
+.flexcontato fieldset input:focus,
+.flexcontato fieldset select:focus,
+.flexcontato fieldset textarea:focus {
 	color: #000;
-	background:#e1e1e1;
+	background:#bebebe;
 }
-#flexcontato fieldset input, 
-#flexcontato fieldset textarea {
-	width: 370px;
+#flexcontato fieldset input,
+#flexcontato fieldset textarea,
+.flexcontato fieldset input,
+.flexcontato fieldset textarea  {
+	width: 415px;
 }
-#flexcontato fieldset select {
-	width: 382px;
+#flexcontato fieldset select,
+.flexcontato fieldset select {
+	width: 425px;
 }
-#flexcontato fieldset iframe {
+#flexcontato fieldset iframe,
+.flexcontato fieldset iframe {
 	width: 370px;
 	height: 200px;
 	float: left;
@@ -481,7 +502,8 @@ ul#listanoticia,
 	margin-left: 100px;
 	border: 1px solid #cccccc;
 }
-#flexcontato fieldset div {
+#flexcontato fieldset div,
+.flexcontato fieldset div {
 	width: 300px;
 	height: auto;
 	float: left;
@@ -489,32 +511,41 @@ ul#listanoticia,
 	display: block;
 	margin-left: 100px;
 }
-#flexcontato fieldset div label {
+#flexcontato fieldset div label,
+.flexcontato fieldset div label {
 	width: auto;
 	margin: 0;
 	color:#818181;
 	font-family: 'Oswald', sans-serif;
 	font-size: 10px;
 }
-#flexcontato fieldset div input[type=checkbox] {
+#flexcontato fieldset div input[type=checkbox],
+.flexcontato fieldset div input[type=checkbox] {
 	float: left;
 	clear: none;
 	display: inline-block;
 	width: 20px;
 }
-#flexcontato .btnsend {
-	background: @cor-titulo;
-	color: #fff;
+#flexcontato .btnsend,
+.flexcontato .btnsend {
+	background: #1257a8;
+	color: #2eb9fa;
 	border: none;
 	padding: 5px 25px;
-	margin: 0 0 0 100px;
+	margin: 0 0 0 0px;
 	float: left;
 	clear: left;
 	display: block;
-	border: 1px solid @cor-titulo;
+	border: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 800;
 }
-#flexcontato :active.btnsend {
-	background: #cd151b;
+#flexcontato :active.btnsend,
+.flexcontato :active.btnsend {
+	background: #206cc4;
+	cursor:pointer;
 }
 ul#ilista li {
 	display: block;
