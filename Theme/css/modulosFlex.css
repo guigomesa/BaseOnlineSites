@@ -1,0 +1,106 @@
+﻿.curriculo legend {
+    color: #c61808;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: left;
+    float: left;
+    clear: both;
+    display: block;
+    margin: 10px 0;
+    width: 650px;
+    margin-left: 250px;
+}
+.curriculo fieldset {
+    width: 910px !important;
+}
+.curriculo fieldset label {
+    width: 230px !important;
+    font-size: 12px !important;
+}
+.curriculo .btnsend {
+    margin-right: 300px !important;
+}
+.curriculo p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+}
+.curriculo fieldset span.fixChk {
+    float: left !important;
+    clear: none !important;
+    display: block !important;
+    width: 430px !important;
+}
+.curriculo fieldset span.fixChk input[type=checkbox] {
+    width: 18px !important;
+}
+.curriculo fieldset span.fixChk label {
+    float: left !important;
+    clear: none !important;
+    width: 20px !important;
+    line-height: 10px !important;
+}
+
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+background-image: url(/Theme/images/errorIcons/info.png);
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+background-image:url(/Theme/images/errorIcons/success.png);
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+background-image: url(/Theme/images/errorIcons/warning.png);
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url(/Theme/images/errorIcons/error.png);
+}
+.fixNewsletter {
+    width: 570px !important;
+}
+.fixNewsletter fieldset {
+    width: 480px !important;
+}
+.fixNewsletter fieldset input[type=checkbox] {
+    float: left !important;
+    clear: none !important;
+    display: inline-block !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.fixNewsletter fieldset table {
+    float: left;
+    clear: none;
+    display: inline-block;
+    width: 350px;
+}
+.fixNewsletter .nlpq label {
+margin: 0 !important;
+width: auto !important;
+clear: none !important;
+line-height: 20px !important;
+}
+.fixNewsletter fieldset label {
+    font-size: 12px !important;
+    line-height: 15px !important;
+    margin-bottom: 3px !important;
+    text-transform: uppercase !important;
+    letter-spacing: .1em !important;
+    color: #1b66b2 !important;
+    display: inline-block !important;
+    width: 230px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
